@@ -1,0 +1,55 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [149] using StatReload
+INFO:     Started server process [151]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:51296 - "OPTIONS /events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51338 - "OPTIONS /news?limit=3 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51312 - "OPTIONS /news?category=Campaigns&limit=3 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51326 - "OPTIONS /news?limit=3 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51354 - "OPTIONS /events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51366 - "OPTIONS /news?category=Campaigns&limit=3 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51296 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:51326 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:51338 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:51366 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:51326 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:51338 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:51370 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:42252 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42256 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42272 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42252 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42256 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42272 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42278 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42278 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56172 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56182 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42278 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56194 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42278 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56172 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56182 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56172 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56182 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:42278 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56208 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56208 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:44414 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:44400 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56208 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:44400 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56722 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56732 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56736 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56722 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56732 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:56736 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:37488 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:37502 - "GET /events HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:37504 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:37488 - "GET /news?limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:37504 - "GET /news?category=Campaigns&limit=3 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:37502 - "GET /events HTTP/1.1" 404 Not Found
